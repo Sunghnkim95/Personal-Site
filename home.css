@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 45px;
+    margin-top: -10px;
+    color: white;
+    margin-bottom: -30px;
+    font-family: serif;
+}
+
+p{
+    font-size: 30px;
+    margin-top: -10px;
+    margin-left: -10px;
+    color: white;
+    
+}
+
+/* 
+.body{
+    margin-bottom: -10;
+} */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-right: 90%;
+    font-family: 'Courier New', monospace;
+
+}
+.line1{
+    margin-left:750px;
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.line2{
+    margin-left:1650px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: -55px;
+}
+.name{
+    margin-top: -40px;
+    margin-left:150px;
+    width: 400px;
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.contact{
+    margin-left:950px;
+    width: 1000px;
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.reside{
+    margin-left:1150px;
+    width: 1000px;
+    height: 110px;    
+    background-color: rgba(0, 0, 0, 0);
+}
+.born{
+    margin-left:1350px;
+    width: 1000px;
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.edu{
+    margin-left:1550px;
+    width: 1000px;
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+section {
+    display: flex;
+    justify-content: end;
+    margin-top: -1060px;
+    margin-left: 1190px;
+    width: 500px;
+    height: 500px;
+}
+img{
+    border-radius: 40%;
+}
+
+.descrip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: pink; */
+    /* margin-top: -10%; */
+    background-color: rgba(0, 0, 0, 0);
+    font-style: italic;
+    font-family: 'Courier New', monospace;
+}
+
+.quote {
+    color: pink;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Courier New', monospace;
+}
+
+

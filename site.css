@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    overflow: auto;
+}
+
+body, html {
+    margin: 10px;
+    padding: 0 15px;;
+    /* background-color: rgb(255, 133, 235); */
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+h1{
+    margin-left: 60px;
+    color: white;
+    font-family: serif;
+}
+h1:hover {
+    text-shadow: 1px 1px 10px blue, 1px 1px 10px red;
+}
+
+
+nav {
+    margin-right: 60px;
+}
+
+a {
+    color: white;
+    font-size:x-large;
+    margin-left: 20px;
+    font-family: 'Courier New', monospace;
+}
+a:hover{
+    /* color: rgb(255, 133, 235); */
+    /* font-family:fantasy; */
+    text-shadow: 1px 1px 10px blue, 1px 1px 10px red;
+    font-weight:bolder;
+}
+
+div {
+    /* margin-left: 3%; */
+    margin-right: 3%;
+    background-color: rgba(0, 0, 0, .65);
+    padding: 50px;
+} 
+
+.foot {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 92.5%;
+    margin-bottom: 1%;
+}
+
+.icons {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
